@@ -673,7 +673,6 @@ def render_welcome() -> None:
         st.html(
             """
             <section class="welcome-hero">
-                <div class="demo-badge"><span></span>Version de démonstration sécurisée</div>
                 <div class="welcome-mark">&lt;/&gt;</div>
                 <h1>DevMind AI</h1>
                 <h2>Votre compagnon intelligent pour le code</h2>

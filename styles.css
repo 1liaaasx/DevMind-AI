@@ -217,21 +217,6 @@ body { color: var(--ink); }
 }
 .st-key-welcome_panel > div[data-testid="stVerticalBlock"] { gap: 9px !important; }
 .welcome-hero { max-width: 650px; margin: 18px auto 18px; text-align: center; }
-.demo-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    margin-bottom: 14px;
-    padding: 6px 10px;
-    border-radius: 999px;
-    color: #6c5ec4;
-    background: rgba(238,234,255,.76);
-    border: 1px solid rgba(108,92,231,.10);
-    font-size: 9px;
-    font-weight: 720;
-    letter-spacing: .035em;
-}
-.demo-badge span { width:6px; height:6px; border-radius:50%; background:#8b7bed; box-shadow:0 0 0 4px rgba(139,123,237,.10); }
 .welcome-mark {
     display: grid;
     place-items: center;

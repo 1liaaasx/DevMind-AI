@@ -24,6 +24,12 @@ def test_sources_panel_only_appears_for_current_answer(tmp_path, monkeypatch) ->
     assert not html_contains(at, "Sources consultées")
 
 
+def test_welcome_does_not_show_demo_badge(tmp_path, monkeypatch) -> None:
+    at = app(tmp_path, monkeypatch)
+    assert not at.exception
+    assert not html_contains(at, "Version de démonstration sécurisée")
+
+
 def test_chat_renders_code_blocks_and_github_source_links(tmp_path, monkeypatch) -> None:
     at = app(tmp_path, monkeypatch)
     at.session_state.current_view = "chat"
