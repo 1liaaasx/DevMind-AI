@@ -1,0 +1,7 @@
+streamlit==1.65.0
+groq==0.37.1
+sentence-transformers==5.7.0
+chromadb==1.5.9
+pypdf==6.20.0
+python-dotenv==1.2.4
+requests==2.34.2

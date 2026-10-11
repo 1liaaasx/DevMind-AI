@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+.devmind/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
