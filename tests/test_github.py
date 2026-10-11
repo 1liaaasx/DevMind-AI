@@ -135,4 +135,3 @@ def test_repository_download_has_a_total_deadline(monkeypatch) -> None:
 
     with pytest.raises(GitHubRepositoryError, match="durée autorisée"):
         client.fetch("https://github.com/example/demo")
-

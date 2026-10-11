@@ -427,4 +427,3 @@ def test_code_assistant_rejects_empty_code(service) -> None:
 
     with pytest.raises(ValueError, match="Collez du code"):
         rag.generate_code_help("   ", task="Expliquer", language="Python")
-

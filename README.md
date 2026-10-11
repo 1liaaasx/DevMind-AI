@@ -162,4 +162,3 @@ d’entrée et des dépendances de production épinglées dans `requirements.txt
 
 Le guide complet, les commandes Git, le diagnostic des logs et la checklist de
 validation sont détaillés dans [DEPLOYMENT.md](DEPLOYMENT.md).
-

@@ -128,4 +128,3 @@ def test_groq_failures_are_translated_to_safe_messages(
 
     with pytest.raises(groq_module.GroqGenerationError, match=expected_message):
         generator.generate("Question")
-

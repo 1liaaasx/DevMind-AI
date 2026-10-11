@@ -66,4 +66,3 @@ def test_publication_ignores_secrets_private_data_and_logs() -> None:
     example = (PROJECT_ROOT / ".env.example").read_text(encoding="utf-8")
     assert "votre_cle_api_groq" in example
     assert "gsk_" not in example
-

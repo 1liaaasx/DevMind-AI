@@ -215,4 +215,3 @@ def test_history_reopens_and_settings_clear_it(tmp_path, monkeypatch) -> None:
     assert not at.exception
     assert at.session_state.history == []
     assert at.session_state.current_view == "welcome"
-

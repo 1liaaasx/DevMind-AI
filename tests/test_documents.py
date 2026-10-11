@@ -64,4 +64,3 @@ def test_split_pages_preserves_page_and_overlap() -> None:
     assert chunks[0].filename == "cours.pdf"
     assert chunks[0].chunk_index == 0
     assert chunks[1].chunk_index == 1
-
