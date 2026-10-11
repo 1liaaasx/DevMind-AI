@@ -1,0 +1,34 @@
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[server]
+headless = true
+maxUploadSize = 8
+# Avoid scanning the large lazy `transformers` module tree while the local
+# embedding model loads. Code changes require a manual app restart.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#6C5CE7"
+backgroundColor = "#F7F7FC"
+secondaryBackgroundColor = "#F1F0F8"
+textColor = "#171525"
+linkColor = "#5C4FDB"
+codeBackgroundColor = "#171827"
+codeTextColor = "#E9E8F4"
+borderColor = "#E7E5F0"
+font = "sans-serif"
+codeFont = "monospace"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["2rem", "1.55rem", "1.2rem", "1rem", "0.9rem", "0.8rem"]
+headingFontWeights = [700, 650, 650, 600, 600, 600]
+baseRadius = "14px"
+buttonRadius = "12px"
+showWidgetBorder = true
+
